@@ -19,9 +19,9 @@ pipeBottomImg.src = "pipe_bottom.png"; // Replace with the real pipe bottom imag
 // Game Variables
 let birdX = 50;
 let birdY = canvas.height / 2;
-let birdSize = 35; // Adjusted to fit image size
-let gravity = 0.5;
-let lift = -9.5;
+let birdSize = 34; // Adjusted to fit image size
+let gravity = 0.48;
+let lift = -9.2;
 let velocity = 0;
 let pipes = [];
 let pipeWidth = 50;
